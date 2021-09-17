@@ -1,0 +1,16 @@
+D:\ParallelProgrammingSamples\MutexTest\bin\Debug\net5.0\MutexTest.exe
+D:\ParallelProgrammingSamples\MutexTest\bin\Debug\net5.0\MutexTest.deps.json
+D:\ParallelProgrammingSamples\MutexTest\bin\Debug\net5.0\MutexTest.runtimeconfig.json
+D:\ParallelProgrammingSamples\MutexTest\bin\Debug\net5.0\MutexTest.runtimeconfig.dev.json
+D:\ParallelProgrammingSamples\MutexTest\bin\Debug\net5.0\MutexTest.dll
+D:\ParallelProgrammingSamples\MutexTest\bin\Debug\net5.0\ref\MutexTest.dll
+D:\ParallelProgrammingSamples\MutexTest\bin\Debug\net5.0\MutexTest.pdb
+D:\ParallelProgrammingSamples\MutexTest\obj\Debug\net5.0\MutexTest.csproj.AssemblyReference.cache
+D:\ParallelProgrammingSamples\MutexTest\obj\Debug\net5.0\MutexTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\ParallelProgrammingSamples\MutexTest\obj\Debug\net5.0\MutexTest.AssemblyInfoInputs.cache
+D:\ParallelProgrammingSamples\MutexTest\obj\Debug\net5.0\MutexTest.AssemblyInfo.cs
+D:\ParallelProgrammingSamples\MutexTest\obj\Debug\net5.0\MutexTest.csproj.CoreCompileInputs.cache
+D:\ParallelProgrammingSamples\MutexTest\obj\Debug\net5.0\MutexTest.dll
+D:\ParallelProgrammingSamples\MutexTest\obj\Debug\net5.0\ref\MutexTest.dll
+D:\ParallelProgrammingSamples\MutexTest\obj\Debug\net5.0\MutexTest.pdb
+D:\ParallelProgrammingSamples\MutexTest\obj\Debug\net5.0\MutexTest.genruntimeconfig.cache

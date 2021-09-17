@@ -1,0 +1,16 @@
+D:\ParallelProgrammingSamples\MainThreadTesting\bin\Debug\net5.0\MainThreadTesting.exe
+D:\ParallelProgrammingSamples\MainThreadTesting\bin\Debug\net5.0\MainThreadTesting.deps.json
+D:\ParallelProgrammingSamples\MainThreadTesting\bin\Debug\net5.0\MainThreadTesting.runtimeconfig.json
+D:\ParallelProgrammingSamples\MainThreadTesting\bin\Debug\net5.0\MainThreadTesting.runtimeconfig.dev.json
+D:\ParallelProgrammingSamples\MainThreadTesting\bin\Debug\net5.0\MainThreadTesting.dll
+D:\ParallelProgrammingSamples\MainThreadTesting\bin\Debug\net5.0\ref\MainThreadTesting.dll
+D:\ParallelProgrammingSamples\MainThreadTesting\bin\Debug\net5.0\MainThreadTesting.pdb
+D:\ParallelProgrammingSamples\MainThreadTesting\obj\Debug\net5.0\MainThreadTesting.csproj.AssemblyReference.cache
+D:\ParallelProgrammingSamples\MainThreadTesting\obj\Debug\net5.0\MainThreadTesting.GeneratedMSBuildEditorConfig.editorconfig
+D:\ParallelProgrammingSamples\MainThreadTesting\obj\Debug\net5.0\MainThreadTesting.AssemblyInfoInputs.cache
+D:\ParallelProgrammingSamples\MainThreadTesting\obj\Debug\net5.0\MainThreadTesting.AssemblyInfo.cs
+D:\ParallelProgrammingSamples\MainThreadTesting\obj\Debug\net5.0\MainThreadTesting.csproj.CoreCompileInputs.cache
+D:\ParallelProgrammingSamples\MainThreadTesting\obj\Debug\net5.0\MainThreadTesting.dll
+D:\ParallelProgrammingSamples\MainThreadTesting\obj\Debug\net5.0\ref\MainThreadTesting.dll
+D:\ParallelProgrammingSamples\MainThreadTesting\obj\Debug\net5.0\MainThreadTesting.pdb
+D:\ParallelProgrammingSamples\MainThreadTesting\obj\Debug\net5.0\MainThreadTesting.genruntimeconfig.cache

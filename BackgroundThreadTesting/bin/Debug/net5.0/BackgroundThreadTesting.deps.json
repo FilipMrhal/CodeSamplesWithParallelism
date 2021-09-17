@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BackgroundThreadTesting/1.0.0": {
+        "runtime": {
+          "BackgroundThreadTesting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BackgroundThreadTesting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
