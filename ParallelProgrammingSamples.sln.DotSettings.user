@@ -1,13 +1,14 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fcb47bda_002D7bf4_002D4048_002Dbe0c_002D124163f22dee/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetOddNumbersWithoutThreadingTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net5.0::Tests.BackgroundThreadTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net5.0::Tests.LockingAndThreadSafetyTests.GetRandomNumberTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net5.0::Tests.LockingAndThreadSafetyTests.GetRandomNumberWithInterlockedTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net5.0::Tests.LockingAndThreadSafetyTests.GetRandomNumberTest1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net5.0::Tests.LockingAndThreadSafetyTests.GetRandomNumberWithInterlockedTest1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net5.0::Tests.LockingAndThreadSafetyTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net5.0::Tests.ArrayOrderingTests.Test4&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net5.0::Tests.ArrayOrderingTests&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=813228ac_002Dc59e_002D480a_002Daed9_002D9187961b7c60/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ArrayOrderingTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net6.0::Tests.ArrayOrderingTests.Test1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net6.0::Tests.ArrayOrderingTests.Test2&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net6.0::Tests.ArrayOrderingTests.Test6&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net6.0::Tests.ArrayOrderingTests.Test7&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net6.0::Tests.CacheTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net6.0::Tests.LockingAndThreadSafetyTests.GetRandomNumberTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net6.0::Tests.LockingAndThreadSafetyTests.GetRandomNumberWithInterlockedTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net6.0::Tests.LockingAndThreadSafetyTests.GetRandomNumberFiniteCountTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E8E392C1-570C-4F47-9E7A-A00037EA1849::net6.0::Tests.LockingAndThreadSafetyTests.GetRandomNumberFiniteCountWithInterlockedTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

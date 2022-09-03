@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mufwmUpWBCwMYYG8wICJIwPmMzSTsJJN/f2ViFdLBUEM+p4h2GLYhWvxrEhWRFdn1P/hewiG6d9vajsqPQg3fw==",
+  "dgSpecHash": "wDVUmVLKXC1G3NJwLaTLYtWPXb7HsjdrbcD9fJWjXW8HKrMSatYt7dAZmrtHsRteoSL2Z9spLAu68lmZ/G+RFw==",
   "success": true,
-  "projectFilePath": "D:\\ParallelProgrammingSamples\\MutexTest\\MutexTest.csproj",
+  "projectFilePath": "/home/filip/Old-backup/ParallelProgrammingSamples/MutexTest/MutexTest.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

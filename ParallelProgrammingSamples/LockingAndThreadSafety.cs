@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Security.Cryptography;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.VisualBasic;
 
 namespace ParallelProgrammingSamples
 {
@@ -28,16 +29,15 @@ namespace ParallelProgrammingSamples
             return _start;
         }
 
-
         public static int GetRandomNumber1()
         {
             var cts = new CancellationTokenSource();
-            var t1 =Task.Run(() =>
+            var t1 = Task.Run(() =>
             {
                 for (var i = 0; i < 1000; i++)
                     _start++;
             }, cts.Token);
-            var t2 =Task.Run(() =>
+            var t2 = Task.Run(() =>
             {
                 for (var i = 0; i < 1000; i++)
                     _start--;
@@ -49,7 +49,7 @@ namespace ParallelProgrammingSamples
         public static int GetRandomNumberWithInterlocked1()
         {
             var cts = new CancellationTokenSource();
-            var t1 =Task.Run(() =>
+            var t1 = Task.Run(() =>
             {
                 for (var i = 0; i < 1000; i++)
                     Interlocked.Increment(ref _start);
@@ -62,7 +62,7 @@ namespace ParallelProgrammingSamples
             Task.WaitAll(t1, t2);
             return _start;
         }
-        
+
         #region Dead locking
 
         public static int TryDeadlock()
@@ -96,7 +96,7 @@ namespace ParallelProgrammingSamples
             tA.Start();
             tB.Start();
             cts.CancelAfter(TimeSpan.FromSeconds(5));
-            Task.WaitAll(new[]{tA, tB}, TimeSpan.FromSeconds(5));
+            Task.WaitAll(new[] { tA, tB }, TimeSpan.FromSeconds(5));
             return value;
         }
 
@@ -120,7 +120,7 @@ namespace ParallelProgrammingSamples
                     Monitor.Pulse(_locker);
                 }
             }
-            
+
             return number;
         }
 
@@ -137,6 +137,51 @@ namespace ParallelProgrammingSamples
 
                 Interlocked.Increment(ref number);
             }
+        }
+
+        #endregion
+
+        #region Locking
+
+        private static readonly object _locking = new object();
+
+        public static void Lock1()
+        {
+            int val1 = 200;
+            int val2 = 0;
+            lock (_locking)
+            {
+                if (val2 != 0)
+                    Console.WriteLine(val1 / val2);
+                val2 = 0;
+            }
+        }
+
+        public static void Lock2()
+        {
+            int val1 = 200;
+            int val2 = 0;
+            bool lockWasTaken = false;
+            Monitor.Enter(_locking, ref lockWasTaken);
+            try
+            {
+                if (val2 != 0)
+                    Console.WriteLine(val1 / val2);
+                val2 = 0;
+            }
+            finally
+            {
+                if (lockWasTaken)
+                    Monitor.Exit(_locking);
+            }
+        }
+        
+        public static string CanILockWithNullable()
+        {
+            var lockA = new Nullable<int>(0);
+            var cts = new CancellationTokenSource();
+            //Can I lock lockA increment with lockA?
+            return string.Empty;
         }
 
         #endregion

@@ -10,7 +10,6 @@ namespace ParallelProgrammingSamples
         public static int[] SerialQuickSort(int[] toSort) => 
             SerialQuickSort(toSort, 0, toSort.Length - 1);
 
-        //Merge sort impl - serial
         private static int[] SerialQuickSort(int[] toSort, int leftStart, int rightEnd)
         {
             var left = leftStart;
@@ -56,7 +55,7 @@ namespace ParallelProgrammingSamples
                 else
                     i++;
             }
-		
+
             var t1 = Task.Run(() => QuickSort(arr, left, lt - 1));
             var t2 = Task.Run(() => QuickSort(arr, gt + 1, right));
 

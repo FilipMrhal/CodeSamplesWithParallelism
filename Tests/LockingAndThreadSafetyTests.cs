@@ -18,7 +18,7 @@ namespace Tests
         [Fact]
         public void GetRandomNumberTest()
         {
-            for (var i = 0; i < 10; i++)
+            for (var i = 0; i < 1000; i++)
             {
                 _testOutputHelper.WriteLine(LockingAndThreadSafety.GetRandomNumber().ToString());
             }

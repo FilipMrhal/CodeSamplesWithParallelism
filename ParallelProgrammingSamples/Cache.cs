@@ -94,6 +94,28 @@ namespace ParallelProgrammingSamples
         }
     }
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     public class CacheWithConcurrency : BasicCacheTester
     {
         private readonly ConcurrentDictionary<int, int> _cache = new();

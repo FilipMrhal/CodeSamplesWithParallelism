@@ -1,41 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ParallelProgrammingSamples\\MutexTest\\MutexTest.csproj": {}
+    "/home/filip/Old-backup/ParallelProgrammingSamples/MutexTest/MutexTest.csproj": {}
   },
   "projects": {
-    "D:\\ParallelProgrammingSamples\\MutexTest\\MutexTest.csproj": {
+    "/home/filip/Old-backup/ParallelProgrammingSamples/MutexTest/MutexTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ParallelProgrammingSamples\\MutexTest\\MutexTest.csproj",
+        "projectUniqueName": "/home/filip/Old-backup/ParallelProgrammingSamples/MutexTest/MutexTest.csproj",
         "projectName": "MutexTest",
-        "projectPath": "D:\\ParallelProgrammingSamples\\MutexTest\\MutexTest.csproj",
-        "packagesPath": "C:\\Users\\fmrha\\.nuget\\packages\\",
-        "outputPath": "D:\\ParallelProgrammingSamples\\MutexTest\\obj\\",
+        "projectPath": "/home/filip/Old-backup/ParallelProgrammingSamples/MutexTest/MutexTest.csproj",
+        "packagesPath": "/home/filip/.nuget/packages/",
+        "outputPath": "/home/filip/Old-backup/ParallelProgrammingSamples/MutexTest/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "D:\\NuGet.Config",
-          "C:\\Users\\fmrha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/filip/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/email2/auth/d020c753-f3cc-4fe5-8de6-d7c8a0111c32/api/v3/index.json": {}
+          "https://gitlab.praguelabs.com/api/v4/groups/33/-/packages/nuget/index.json": {},
+          "https://gitlab.praguelabs.com/api/v4/projects/291/packages/nuget/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -46,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -63,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

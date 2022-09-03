@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fAOdfIXGITNf4iqqTFcEDBGn6qHuB8bPDo+r4PTolm1jL3+Uk6ZmOCQRuKQhhiEBjUUGn/BSlYEDwEznjtcr+A==",
+  "dgSpecHash": "TJP6Sd+wYwOk914x4atA+q3bLhVvu1tML1snDpKHMYOjBrGI1gRHyeVDoLLzK4Fq2vyTFp4AqBUTeY0LUwDn4A==",
   "success": true,
-  "projectFilePath": "D:\\ParallelProgrammingSamples\\BackgroundThreadTesting\\BackgroundThreadTesting.csproj",
+  "projectFilePath": "/home/filip/Old-backup/ParallelProgrammingSamples/BackgroundThreadTesting/BackgroundThreadTesting.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
