@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Diagnostics;
-using System.Security.Cryptography;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.VisualBasic;
 
 namespace ParallelProgrammingSamples
 {
@@ -95,8 +92,8 @@ namespace ParallelProgrammingSamples
             }, cts.Token);
             tA.Start();
             tB.Start();
-            cts.CancelAfter(TimeSpan.FromSeconds(5));
-            Task.WaitAll(new[] { tA, tB }, TimeSpan.FromSeconds(5));
+            cts.CancelAfter(TimeSpan.FromSeconds(30));
+            Task.WaitAll([tA, tB], TimeSpan.FromSeconds(30));
             return value;
         }
 

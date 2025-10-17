@@ -1,3 +1,4 @@
+using System;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
@@ -8,13 +9,15 @@ public class AsyncAwait
 {
     public async Task TestAsync()
     {
+        var a = "sdgsdg";
         await TestWithReturnValueAsync();
+        Console.WriteLine(a);
     }
 
-    public async void TestAsyncVoid()
-    {
-        var currentcontext = TaskScheduler.Current;
-    }
+    // public async void TestAsyncVoid()
+    // {
+    //     var currentcontext = TaskScheduler.Current;
+    // }
 
     public async Task<int> TestWithReturnValueAsync()
     {

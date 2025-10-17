@@ -1,32 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/filip/Old-backup/ParallelProgrammingSamples/Tests/Tests.csproj": {}
+    "/home/mightyduck/RiderProjects/CodeSamplesWithParallelism/Tests/Tests.csproj": {}
   },
   "projects": {
-    "/home/filip/Old-backup/ParallelProgrammingSamples/ParallelProgrammingSamples/ParallelProgrammingSamples.csproj": {
+    "/home/mightyduck/RiderProjects/CodeSamplesWithParallelism/ParallelProgrammingSamples/ParallelProgrammingSamples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/filip/Old-backup/ParallelProgrammingSamples/ParallelProgrammingSamples/ParallelProgrammingSamples.csproj",
+        "projectUniqueName": "/home/mightyduck/RiderProjects/CodeSamplesWithParallelism/ParallelProgrammingSamples/ParallelProgrammingSamples.csproj",
         "projectName": "ParallelProgrammingSamples",
-        "projectPath": "/home/filip/Old-backup/ParallelProgrammingSamples/ParallelProgrammingSamples/ParallelProgrammingSamples.csproj",
-        "packagesPath": "/home/filip/.nuget/packages/",
-        "outputPath": "/home/filip/Old-backup/ParallelProgrammingSamples/ParallelProgrammingSamples/obj/",
+        "projectPath": "/home/mightyduck/RiderProjects/CodeSamplesWithParallelism/ParallelProgrammingSamples/ParallelProgrammingSamples.csproj",
+        "packagesPath": "/home/mightyduck/.nuget/packages/",
+        "outputPath": "/home/mightyduck/RiderProjects/CodeSamplesWithParallelism/ParallelProgrammingSamples/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/filip/.nuget/NuGet/NuGet.Config"
+          "/home/mightyduck/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {},
-          "https://gitlab.praguelabs.com/api/v4/groups/33/-/packages/nuget/index.json": {},
-          "https://gitlab.praguelabs.com/api/v4/projects/291/packages/nuget/index.json": {}
+          "https://codenow.jfrog.io/artifactory/api/nuget/metrans-cz-nuget/": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -34,56 +33,72 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.17, 8.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.17, 8.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/mightyduck/.dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/filip/Old-backup/ParallelProgrammingSamples/Tests/Tests.csproj": {
+    "/home/mightyduck/RiderProjects/CodeSamplesWithParallelism/Tests/Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/filip/Old-backup/ParallelProgrammingSamples/Tests/Tests.csproj",
+        "projectUniqueName": "/home/mightyduck/RiderProjects/CodeSamplesWithParallelism/Tests/Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "/home/filip/Old-backup/ParallelProgrammingSamples/Tests/Tests.csproj",
-        "packagesPath": "/home/filip/.nuget/packages/",
-        "outputPath": "/home/filip/Old-backup/ParallelProgrammingSamples/Tests/obj/",
+        "projectPath": "/home/mightyduck/RiderProjects/CodeSamplesWithParallelism/Tests/Tests.csproj",
+        "packagesPath": "/home/mightyduck/.nuget/packages/",
+        "outputPath": "/home/mightyduck/RiderProjects/CodeSamplesWithParallelism/Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/filip/.nuget/NuGet/NuGet.Config"
+          "/home/mightyduck/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {},
-          "https://gitlab.praguelabs.com/api/v4/groups/33/-/packages/nuget/index.json": {},
-          "https://gitlab.praguelabs.com/api/v4/projects/291/packages/nuget/index.json": {}
+          "https://codenow.jfrog.io/artifactory/api/nuget/metrans-cz-nuget/": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/filip/Old-backup/ParallelProgrammingSamples/ParallelProgrammingSamples/ParallelProgrammingSamples.csproj": {
-                "projectPath": "/home/filip/Old-backup/ParallelProgrammingSamples/ParallelProgrammingSamples/ParallelProgrammingSamples.csproj"
+              "/home/mightyduck/RiderProjects/CodeSamplesWithParallelism/ParallelProgrammingSamples/ParallelProgrammingSamples.csproj": {
+                "projectPath": "/home/mightyduck/RiderProjects/CodeSamplesWithParallelism/ParallelProgrammingSamples/ParallelProgrammingSamples.csproj"
               }
             }
           }
@@ -92,11 +107,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -125,16 +146,27 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.17, 8.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.17, 8.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/mightyduck/.dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

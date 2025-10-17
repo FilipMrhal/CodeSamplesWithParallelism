@@ -11,7 +11,7 @@ namespace Tests
     public class CacheTests
     {
         private readonly ITestOutputHelper _testOutputHelper;
-        private static readonly int[] ArrayLenght = { 2, 4, 8, 10, 100, 1000, 10000};
+        private static readonly int[] ArrayLenght = [2, 4, 8, 10, 100, 1000, 10000];
 
         public CacheTests(ITestOutputHelper testOutputHelper)
         {
@@ -36,7 +36,7 @@ namespace Tests
         {
             var sw = new Stopwatch();
             sw.Start();
-            var result = cache.Invoke(new []{1,1,1,1,1,1,1}); //We try to add similar key more than once.
+            var result = cache.Invoke([1,1,1,1,1,1,1]); //We try to add similar key more than once.
             sw.Stop();
             _testOutputHelper.WriteLine($"Elapsed {name} {sw.ElapsedMilliseconds}");
             Assert.Single(result);
@@ -46,7 +46,7 @@ namespace Tests
         {
             var sw = new Stopwatch();
             sw.Start();
-            var result =await cache.Invoke(new []{1,1,1,1,1,1,1}); //We try to add similar key more than once.
+            var result =await cache.Invoke([1,1,1,1,1,1,1]); //We try to add similar key more than once.
             sw.Stop();
             _testOutputHelper.WriteLine($"Elapsed {name} {sw.ElapsedMilliseconds}");
             Assert.Single(result);
@@ -56,7 +56,7 @@ namespace Tests
         {
             var sw = new Stopwatch();
             sw.Start();
-            var result = await cache.Invoke(new []{1,1,1,1,1,1,1,}); //We try to add similar key more than once.
+            var result = await cache.Invoke([1,1,1,1,1,1,1]); //We try to add similar key more than once.
             sw.Stop();
             _testOutputHelper.WriteLine($"Elapsed {name} {sw.ElapsedMilliseconds}");
             Assert.Single(result);

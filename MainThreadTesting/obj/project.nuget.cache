@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fcWImoL2v4ikw+r2XEBm0EHvcGgbY5/r7Z1frq5hJ3a1nYpE/a4lRYLvI92I+sgQdXIjA3OiH50fitx5akVupw==",
+  "dgSpecHash": "yCsQHMYVa2o=",
   "success": true,
-  "projectFilePath": "/home/filip/Old-backup/ParallelProgrammingSamples/MainThreadTesting/MainThreadTesting.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/mightyduck/RiderProjects/CodeSamplesWithParallelism/MainThreadTesting/MainThreadTesting.csproj",
+  "expectedPackageFiles": [
+    "/home/mightyduck/.nuget/packages/microsoft.netcore.app.ref/8.0.17/microsoft.netcore.app.ref.8.0.17.nupkg.sha512",
+    "/home/mightyduck/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.17/microsoft.aspnetcore.app.ref.8.0.17.nupkg.sha512",
+    "/home/mightyduck/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.17/microsoft.netcore.app.host.linux-x64.8.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

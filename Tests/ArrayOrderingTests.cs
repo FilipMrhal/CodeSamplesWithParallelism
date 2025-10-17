@@ -11,7 +11,8 @@ namespace Tests
     public class ArrayOrderingTests
     {
         private readonly ITestOutputHelper _testOutputHelper;
-        private static readonly int[] ArrayLenght = { 2, 4, 8, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000 };
+        private static readonly int[] ArrayLenght = [2, 4, 8, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000
+        ];
 
         public ArrayOrderingTests(ITestOutputHelper testOutputHelper)
         {

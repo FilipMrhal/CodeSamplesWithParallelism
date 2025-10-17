@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Threading;
 using ParallelProgrammingSamples;
 using Xunit;
 using Xunit.Abstractions;
@@ -22,9 +23,10 @@ namespace Tests
             {
                 _testOutputHelper.WriteLine(LockingAndThreadSafety.GetRandomNumber().ToString());
             }
+
             Assert.True(true);
         }
-        
+
         [Fact]
         public void GetRandomNumberWithInterlockedTest()
         {
@@ -32,9 +34,10 @@ namespace Tests
             {
                 _testOutputHelper.WriteLine(LockingAndThreadSafety.GetRandomNumberWithInterlocked().ToString());
             }
+
             Assert.True(true);
         }
-        
+
         [Fact]
         public void GetRandomNumberFiniteCountTest()
         {
@@ -42,9 +45,10 @@ namespace Tests
             {
                 _testOutputHelper.WriteLine(LockingAndThreadSafety.GetRandomNumber1().ToString());
             }
+
             Assert.True(true);
         }
-        
+
         [Fact]
         public void GetRandomNumberFiniteCountWithInterlockedTest()
         {
@@ -52,9 +56,9 @@ namespace Tests
             {
                 _testOutputHelper.WriteLine(LockingAndThreadSafety.GetRandomNumberWithInterlocked1().ToString());
             }
+
             Assert.True(true);
         }
-
 
 
         [Fact]
@@ -62,28 +66,21 @@ namespace Tests
         {
             var sw = new Stopwatch();
             for (var i = 0; i < 10; i++)
-            {   
+            {
                 sw.Start();
-                var result = LockingAndThreadSafety.TryDeadlock();
+                _ = LockingAndThreadSafety.TryDeadlock();
                 sw.Stop();
-                if (sw.Elapsed >= TimeSpan.FromSeconds(4))
-                {
-                    _testOutputHelper.WriteLine("Deadlock");
-                    Assert.True(true);
-                }
-                else
-                {
-                    _testOutputHelper.WriteLine("Did not deadlock");
-                    Assert.True(true);
-                }
+                _testOutputHelper.WriteLine(sw.Elapsed >= TimeSpan.FromSeconds(4) ? "Deadlock" : "Did not deadlock");
+                Thread.Sleep(2000);
+                Assert.True(true);
             }
         }
-        
+
         [Fact]
         public void LockRaceTest()
         {
             for (var i = 0; i < 100; i++)
-            {   
+            {
                 var result = LockingAndThreadSafety.TryDeadlock();
                 _testOutputHelper.WriteLine(result.ToString());
                 Assert.True(true);
