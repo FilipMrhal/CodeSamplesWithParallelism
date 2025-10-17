@@ -20,8 +20,8 @@ namespace ParallelProgrammingSamples
         public static int GetRandomNumberWithInterlocked()
         {
             var cts = new CancellationTokenSource();
-            Task.Run(() => Interlocked.Increment(ref _start), cts.Token);
-            Task.Run(() => Interlocked.Decrement(ref _start), cts.Token);
+            Task.Run(() => Interlocked.Increment(ref _start), cts.Token); //Thread safe _start++, nepouziva uvnitr lock, je rychlejsi
+            Task.Run(() => Interlocked.Decrement(ref _start), cts.Token); //Thread safe _start--, nepouziva uvnitr lock, je rychlejsi
             cts.CancelAfter(TimeSpan.FromSeconds(8));
             return _start;
         }
@@ -159,9 +159,9 @@ namespace ParallelProgrammingSamples
             int val1 = 200;
             int val2 = 0;
             bool lockWasTaken = false;
-            Monitor.Enter(_locking, ref lockWasTaken);
             try
             {
+                Monitor.Enter(_locking, ref lockWasTaken);
                 if (val2 != 0)
                     Console.WriteLine(val1 / val2);
                 val2 = 0;
@@ -180,6 +180,9 @@ namespace ParallelProgrammingSamples
             //Can I lock lockA increment with lockA?
             return string.Empty;
         }
+        
+        //In .NET 9 and higher
+        //private static Lock _performanceBetterLock = new();
 
         #endregion
     }

@@ -30,7 +30,7 @@ Nejspolehlivější zdroj informací: https://learn.microsoft.com/en-us/dotnet/c
    5. Podíváme se na tabulku zámků: `syncblk`
    6. Zbývá ověřit, které z nich jsou vzájemně blokující, to se dá udělat kontrolou call stacků daných threadů:
       ```
-      setthread -t <threadid> 
+      setthread <threadid> 
       clrstack
       ```
       
